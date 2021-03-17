@@ -36,7 +36,7 @@ const PostViewerContainer = ({ match, history }) => {
   const onRemove = async () => {
     try {
       await removePost(postId);
-      history.push('/'); // move to home
+      history.push('/post'); // move to home
     } catch (e) {
       console.log(e);
     }

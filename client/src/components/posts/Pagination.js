@@ -9,12 +9,13 @@ const PaginationBlock = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 3rem;
+  padding-bottom: 7rem;
 `;
 const PageNumber = styled.div``;
 
 const buildLink = ({ username, tag, page }) => {
   const query = qs.stringify({ tag, page });
-  return username ? `/@${username}?${query}` : `/?${query}`;
+  return username ? `/@${username}?${query}` : `/post/?${query}`;
 };
 
 const Pagination = ({ page, lastPage, username, tag }) => {

@@ -45,7 +45,7 @@ const Header = ({ user, onLogout }) => {
       <HeaderBlock>
         <Wrapper>
           <Link to="/" className="logo">
-            <h2>BEST MOVIES</h2>
+            <h1>BEST <span style={{ color: 'blue' }}>20</span> MOVIES</h1>
           </Link>
           {user ? (
             <div className="right">

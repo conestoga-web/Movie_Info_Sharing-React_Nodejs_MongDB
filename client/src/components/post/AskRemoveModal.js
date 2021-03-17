@@ -5,9 +5,9 @@ const AskRemoveModal = ({ visible, onConfirm, onCancel }) => {
   return (
     <AskModal
       visible={visible}
-      title="POST CANCEL"
-      description="WOULD YOU LIKE TO CANCEL THE POST?"
-      confirmText="CANCEL"
+      title="POST REMOVE"
+      description="Would You Like to Remove the Post?"
+      confirmText="REMOVE"
       onConfirm={onConfirm}
       onCancel={onCancel}
     />

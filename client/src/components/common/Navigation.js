@@ -5,9 +5,9 @@ import './Navigation.css';
 function Navigation() {
     return (
         <div className="nav">
-            <Link to="/">HOME</Link>
-            <Link to="/post">POST</Link>
-            <Link to="/write">WRITE</Link>
+            <Link to="/">MOVIES</Link>
+            <Link to="/post">REVIEWS</Link>
+            <Link to="/write">NEW POST</Link>
         </div>
     );
 }

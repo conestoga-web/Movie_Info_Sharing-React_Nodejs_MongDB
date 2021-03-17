@@ -19,7 +19,7 @@ const TagForm = styled.form`
   border-radius: 4px;
   overflow: hidden;
   display: flex;
-  width: 650px;
+  width: 360px;
   border: 1px solid ${palette.gray[9]};
   input,
   button {
