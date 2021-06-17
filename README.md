@@ -6,7 +6,7 @@
 
 **1. This Online Movie Information Website is for users to *Get movie information* and *create, update*, and *share review* of each movie.**
 
-**2. Project Performing: MEAN stack**  
+**2. Project Performing**  
 &nbsp; &nbsp; * Database:			        MongoDB (online) <br />
 &nbsp; &nbsp; * Server Environment: 		Node.js <br />
 &nbsp; &nbsp; * Server Side Framework: 	    Koa <br />
