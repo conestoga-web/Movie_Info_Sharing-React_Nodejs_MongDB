@@ -4,7 +4,7 @@
 
 # Overview
 
-**1. This Online Book Information Website is for users to *Get movie information* and *create, update*, and *share review* of each movie.**
+**1. This Online Movie Information Website is for users to *Get movie information* and *create, update*, and *share review* of each movie.**
 
 **2. Project Performing: MEAN stack**  
 &nbsp; &nbsp; * Database:			        MongoDB (online) <br />
